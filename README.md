@@ -29,6 +29,12 @@ ros2 topic echo /turtle1/cmd_vel
 
 ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1, y: 1, z:0}, angular: {x: 0, y: 0, z: 3.14}}"
 
-#for revolution
+#for one revolution
 ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1, y: 1, z: 0}, angular: {x: 0, y: 0, z: 3.14}}"
+
+#for sending one data at one second
+ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1, y: 1, z: 0}, angular: {x: 0, y: 0, z: 3.14}}"
+
+#checking the input frequency
+ros2 topic hz /turtle1/cmd_vel
 
