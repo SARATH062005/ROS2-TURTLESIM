@@ -15,7 +15,7 @@ ros2 run turtlesim turtlesim_node
 
 ros2 run turtlesim turtle_teleop_key
 
-Reading from keyboard
+reading from keyboard
 ---------------------------
 Use arrow keys to move the turtle.
 Use G|B|V|C|D|E|R|T keys to rotate to absolute orientations. 'F' to cancel a rotation.
