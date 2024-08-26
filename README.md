@@ -14,7 +14,8 @@ ros2 run turtlesim turtlesim_node
 --[INFO] [1724691874.333206587] [turtlesim]: Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]
 
 ros2 run turtlesim turtle_teleop_key
---Reading from keyboard
+
+Reading from keyboard
 ---------------------------
 Use arrow keys to move the turtle.
 Use G|B|V|C|D|E|R|T keys to rotate to absolute orientations. 'F' to cancel a rotation.
